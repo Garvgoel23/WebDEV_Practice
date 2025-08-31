@@ -1,0 +1,105 @@
+body {
+    background-color: #e5fde3; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    padding: 20px; 
+}
+
+.full{
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 550px; 
+}
+.name{
+    display: flex;
+    margin: 10px 0px 10px;
+
+}
+
+.inputemail{
+    padding: 10px 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+.inputname{
+    padding: 5px;
+    border-radius: 5px;
+}
+.lastname{
+    margin: 0px 10px 0px;
+}
+h1{
+    text-align: center;
+    color: #333;
+    margin-bottom: 24px;
+}
+
+.forms{
+    margin-bottom: 20px;
+}
+
+.flex{
+    display: flex;
+    gap: 25px; 
+}
+
+label{
+    display: block; 
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.querytypes{
+    display: flex;
+    gap: 20px; 
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.query{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.querytypes lab{
+    display: inline-flex; 
+    align-items: center;
+    font-weight: normal; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.consent{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.btn{
+width: 100%;
+padding: 12px;
+background-color: #12ee41a1; 
+border: none;
+border-radius: 8px;
+font-size: 26px;
+}
+
+.btn:hover{
+    background-color: #01750a;
+    color: white;
+}
