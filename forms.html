@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1>HTML FORMS</h1>
+    <form >
+        <label for="username">Name:</label>
+        <input type="text" id="username" placeholder="name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="your email" required>
+        <br><br>
+         <label for="password">password:</label>
+         <input type="password" id="password" name="password" placeholder="Password" required>
+         <p>Select your age:</p>
+         <input type="radio" name="age" value="0-25" id="option">
+         <label for="option">0-25</label>
+         <input type="radio" name="age" value="26-50" id="option 2">
+         <label for="option 2">26-50</label>
+        <br><br>
+        <label for="">Security question</label>
+        <select name="question" id="question">
+            <option value="q1">what is your favourite colour?</option>
+            <option value="q2">what is your favourite book?</option>
+        </select>
+        <br><br>
+
+        <label for="answer">security question</label>
+        <input type="text" id="answer">
+        <br><br>
+
+        <label for="bio">Feedback</label><br>
+        <textarea name="bio" id="bio" cols="60" rows="5" placeholder="about you.."></textarea>
+        <br><br>
+        <input type="submit" value="Submit the form">
+
+    </form>
+</body>
+</html>  
